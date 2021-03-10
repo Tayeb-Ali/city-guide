@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1022562414450-d99kc119c0acu72rum2nd2oak4vnkatj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1022562414450-d99kc119c0acu72rum2nd2oak4vnkatj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC0LJyophU39GkC26GHQDPVWUgBza2OBnk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1022562414450</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.trid.demo</string>
+	<key>PROJECT_ID</key>
+	<string>tridme-demo</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tridme-demo.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1022562414450:ios:5331d88a50f9f0ca</string>
+	<key>DATABASE_URL</key>
+	<string>https://tridme-demo.firebaseio.com</string>
+</dict>
+</plist>

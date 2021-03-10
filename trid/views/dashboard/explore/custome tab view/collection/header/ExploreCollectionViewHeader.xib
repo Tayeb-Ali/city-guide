@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="ExploreCollectionViewHeader" customModule="trid_dev" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fPI-E6-GN0" customClass="Segmentio" customModule="trid_dev" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="375" id="JxO-mx-vgy"/>
+                        <constraint firstAttribute="height" constant="48" id="SAg-Yc-hfb"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvc-gn-9Yt">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrg-Hq-Xpm">
+                            <rect key="frame" x="20" y="0.0" width="307" height="48"/>
+                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                            <state key="normal" title="Recommended">
+                                <color key="titleColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nae-7z-gxQ">
+                            <rect key="frame" x="327" y="0.0" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="nae-7z-gxQ" secondAttribute="height" multiplier="1:1" id="qHA-3v-Qr8"/>
+                            </constraints>
+                            <state key="normal" image="btn-no-filter-blue"/>
+                            <state key="selected" image="btn-filter-blue"/>
+                            <connections>
+                                <action selector="actionFilter:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="Sot-fA-epl"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="nae-7z-gxQ" secondAttribute="trailing" id="Ge3-8y-UlS"/>
+                        <constraint firstItem="wrg-Hq-Xpm" firstAttribute="leading" secondItem="hvc-gn-9Yt" secondAttribute="leading" constant="20" id="L5h-Fg-EZN"/>
+                        <constraint firstAttribute="bottom" secondItem="nae-7z-gxQ" secondAttribute="bottom" id="Orw-bP-1cn"/>
+                        <constraint firstItem="nae-7z-gxQ" firstAttribute="leading" secondItem="wrg-Hq-Xpm" secondAttribute="trailing" id="ZX8-Ql-Kgk"/>
+                        <constraint firstAttribute="bottom" secondItem="wrg-Hq-Xpm" secondAttribute="bottom" id="cYp-S2-ICR"/>
+                        <constraint firstItem="nae-7z-gxQ" firstAttribute="top" secondItem="hvc-gn-9Yt" secondAttribute="top" id="h5F-RY-fxJ"/>
+                        <constraint firstItem="wrg-Hq-Xpm" firstAttribute="top" secondItem="hvc-gn-9Yt" secondAttribute="top" id="pRo-eB-iti"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hvc-gn-9Yt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="0lY-E3-rUx"/>
+                <constraint firstItem="fPI-E6-GN0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HmZ-ci-uAA"/>
+                <constraint firstAttribute="trailing" secondItem="hvc-gn-9Yt" secondAttribute="trailing" id="cke-bG-LMa"/>
+                <constraint firstItem="hvc-gn-9Yt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fm4-tF-JpE"/>
+                <constraint firstAttribute="bottom" secondItem="hvc-gn-9Yt" secondAttribute="bottom" id="paQ-T4-gui"/>
+                <constraint firstItem="fPI-E6-GN0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rTz-QQ-qAD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnFilter" destination="nae-7z-gxQ" id="AS4-Qy-OU6"/>
+                <outlet property="btnRecommended" destination="wrg-Hq-Xpm" id="DUZ-eI-WJK"/>
+                <outlet property="constraintSegmentHeight" destination="SAg-Yc-hfb" id="qFo-dh-3j9"/>
+                <outlet property="constraintSegmentWidth" destination="JxO-mx-vgy" id="dSU-ny-gxW"/>
+                <outlet property="segmentio" destination="fPI-E6-GN0" id="aR3-He-T4c"/>
+                <outlet property="viewRecommended" destination="hvc-gn-9Yt" id="2n1-zl-aLw"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="-237"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn-filter-blue" width="16" height="16"/>
+        <image name="btn-no-filter-blue" width="16" height="16"/>
+    </resources>
+</document>

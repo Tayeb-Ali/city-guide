@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoryCell" customModule="trid" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="185" height="113"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="185" height="113"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eeZ-e2-zlC">
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Events" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnI-eE-VUM">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="Mh6-YR-xq3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="fnI-eE-VUM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5NX-15-Zgn"/>
+                <constraint firstAttribute="trailing" secondItem="eeZ-e2-zlC" secondAttribute="trailing" constant="5" id="ISF-yD-R7j"/>
+                <constraint firstAttribute="trailing" secondItem="fnI-eE-VUM" secondAttribute="trailing" id="MeD-Nh-Hyo"/>
+                <constraint firstItem="fnI-eE-VUM" firstAttribute="top" secondItem="eeZ-e2-zlC" secondAttribute="bottom" id="WNR-mS-2Xr"/>
+                <constraint firstAttribute="bottom" secondItem="fnI-eE-VUM" secondAttribute="bottom" constant="10" id="pEu-0a-wcb"/>
+                <constraint firstItem="eeZ-e2-zlC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="pVh-I8-kJ5"/>
+                <constraint firstItem="eeZ-e2-zlC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="qbH-KS-jfZ"/>
+            </constraints>
+            <size key="customSize" width="185" height="113"/>
+            <connections>
+                <outlet property="icon" destination="eeZ-e2-zlC" id="Ebo-0b-CSK"/>
+                <outlet property="labelName" destination="fnI-eE-VUM" id="6Kz-dg-7xW"/>
+            </connections>
+            <point key="canvasLocation" x="10.5" y="4.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

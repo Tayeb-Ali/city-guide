@@ -1,0 +1,179 @@
+/* 
+  Localizable.strings
+  trid
+
+  Created by Black on 11/29/16.
+  Copyright © 2016 Black. All rights reserved.
+*/
+
+// ----------------------- APP --------------------------
+"App Name" = "trid";
+"App Full Name" = "Travel Guide \nTemplate";
+"App Slogan 1" = "Translate to new language";
+"App Slogan 2" = "Lorem Ipsum is simply text 2";
+"App Slogan 3" = "Lorem Ipsum is simply text 3";
+
+// ----------------------- Screen Login --------------------------
+"Connect with Facebook" = "Đăng nhập bằng Facebook";
+"Connect with Google" = "Connect with Google";
+"Connect with Email" = "Connect with Email";
+"Skip" = "Skip";
+"Cancel" = "Cancel";
+// email
+"Sign In" = "Login";
+"Sign Up" = "Sign Up";
+// login
+"Welcome" = "Welcome";
+"Email" = "Email";
+"Password" = "Password";
+"Forgot Password" = "Forgot Password";
+// sign up
+"Create an account" = "Create an account";
+"Username" = "Username";
+"Confirm Password" = "Confirm Password";
+"Password Empty" = "Password can't empty";
+"Password dont match" = "Confirm password doesn't match";
+"Name empty" = "Username can't empty";
+// forgot password
+"Forgot password description" = "Enter your email address, we'll send you reset password instructions.";
+"Email empty" = "Email empty";
+"Email invalid" = "Email invalid";
+
+// ----------------------- Popup --------------------------
+"Click out side to close" = "Click out side to close";
+
+// ----------------------- Menu --------------------------
+"Book ticket" = "Book ticket";
+"My Plan" = "My Plan";
+"My Post" = "My Post";
+"Favorite" = "Favorite";
+"Profile" = "Profile";
+"Information" = "Information"; // section 2
+"About This App" = "About This App";
+"Privacy Statement" = "Privacy Statement";
+"Feedback" = "Feedback";
+"Review App" = "Review App";
+"Setting" = "Setting";
+"Log Out" = "Log Out";
+"Version" = "Version";
+"Visa Online" = "Visa Online";
+
+// ----------------------- Explore/Discover --------------------------
+"Home" = "HOME";
+// Tabbar
+"All Cities" = "All Cities";
+"Explore" = "Explore";
+"Saved" = "Saved";
+"No data" = "No data";
+
+// ----------------------- Place Detail --------------------------
+"comment" = "comment";
+"comments" = "comments";
+"Write a comment" = "Write a comment...";
+"Your comment is empty" = "Your comment is empty";
+"unknown" = "unknown";
+"From" = "From";
+"to" = "to";
+"To" = "To";
+"Free" = "Free";
+"+" = "+";
+"Review" = "Review";
+"Reviews" = "Reviews";
+"view all" = "View all";
+"Check in" = "Check in";
+"Check out" = "Check out";
+"Read more" = "Read more";
+"Address" = "Address";
+"Direction" = "Direction";
+"Phone" = "Phone";
+"Call" = "Call";
+"Mail" = "Email";
+"Send" = "Send";
+"Web" = "Website";
+"Visit" = "Visit";
+"Facebook" = "Facebook";
+"View" = "View";
+// TOUR
+"Location" = "Location";
+"Duration" = "Duration";
+"Language" = "Language";
+"Languages" = "Languages";
+"Transpotation" = "Transpotation";
+"GroupSize" = "Group Size";
+
+// ----------------------- Datetime --------------------------
+"Today" = "Today";
+"Yesterday" = "Yesterday";
+"day ago" = "day ago";
+"h ago" = "h ago";
+"m ago" = "m ago";
+"Just a moment" = "Just a moment";
+
+// ----------------------- Filter --------------------------
+"Filter" = "Filter";
+
+// ----------------------- Mail --------------------------
+"Sent" = "Sent";
+"Send" = "Send";
+"Dismiss" = "Dismiss";
+"Please enter something in your mind" = "Please write something";
+
+// ----------------------- Tip --------------------------
+"Tip" = "Tip";
+"Tips" = "Tips";
+"New tip" = "New tip";
+"Add a new tip" = "Add a new tip";
+"Add Tip Placeholder" = "Give your tip or ask something...";
+"Add" = "Add";
+"Content is empty" = "Content is empty";
+"Top Tips" = "Top Tips";
+"Recent Tips" = "Recent Tips";
+"Local Tours" = "Local Tours";
+"Success" = "Success";
+"Tip for" = "Tip for";
+"Ask a question or share your tips" = "Ask a question or share your tips";
+"Type here..." = "Type here...";
+"Questions" = "Questions";
+
+
+// ----------------------- Error --------------------------
+"Something wrong happened" = "Something wrong happened";
+"This user was disabled" = "This user was disabled. Please contact admin for more info.";
+"Coming Soon" = "Coming Soon";
+
+// ----------------------- Home --------------------------
+"There's any tip in this city" = "There's any tip in this city";
+"There's any tour in this city" = "There's any tour in this city";
+"Get to know" = "Get to know";
+"Emergency" = "Emergency";
+"Getting Around" = "Transport";
+
+// ----------------------- Favorited --------------------------
+"Removed" = "Removed";
+
+
+// ----------------------- Sleep & Tour booking --------------------------
+"Book Now" = "Book Now";
+"Check Availability" = "Check Availability";
+
+// ----------------------- Online status --------------------------
+"It is look like you are offline" = "It's look like you're offline. You can continue to use application with the available data.";
+"Please check your internet connection" = "Please check your internet connection";
+"Available Offline" = "Available Offline";
+"Online Only" = "Online Only";
+
+// Inapp purchase
+ "Unlock" = "Unlock";
+
+// Rate app
+"Rate our App" = "Rate our App";
+"Rate our app description" = "If you love our app. Please take a moment to rate it in the App Store";
+"Rate" = "Rate";
+"Send Feedback" = "Send Feedback";
+"Close" = "Close";
+
+// ----------------------- Ask & share --------------------------
+"Ask & Share" = "Ask & Share";
+"Ask" = "Ask";
+
+

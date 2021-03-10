@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TabbarButton" customModule="trid_dev" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="54"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QSy-Gs-BOQ">
+                    <rect key="frame" x="32" y="11" width="16" height="16"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="GLg-HA-YnO"/>
+                        <constraint firstAttribute="width" constant="16" id="vKe-XO-dJa"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7X-Zy-JSO">
+                    <rect key="frame" x="0.0" y="32" width="80" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="LSJ-Ea-lXW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="13"/>
+                    <color key="textColor" red="0.44705882352941173" green="0.44705882352941173" blue="0.44705882352941173" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QSy-Gs-BOQ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-8" id="E2x-8E-py4"/>
+                <constraint firstItem="a7X-Zy-JSO" firstAttribute="top" secondItem="QSy-Gs-BOQ" secondAttribute="bottom" constant="5" id="FkW-bp-Ma1"/>
+                <constraint firstAttribute="trailing" secondItem="a7X-Zy-JSO" secondAttribute="trailing" id="WK6-gd-Sgh"/>
+                <constraint firstItem="a7X-Zy-JSO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XeD-xl-yJh"/>
+                <constraint firstItem="QSy-Gs-BOQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="dED-i4-OhX"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="icon" destination="QSy-Gs-BOQ" id="vMw-Sx-nfg"/>
+                <outlet property="label" destination="a7X-Zy-JSO" id="1RG-vO-IT4"/>
+            </connections>
+            <point key="canvasLocation" x="-47" y="-171"/>
+        </view>
+    </objects>
+</document>
